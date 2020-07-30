@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Covid Tracker</title>
+    </head>
+    <body>
+        <header class="header">
+            <nav-bar></nav-bar>
+        </header>
+        <main class="container">
+            <div id="content">
+                <select id="index__dropdown" class="form-control dropdown">
+                </select>
+                <div id="index__card" class="card-deck"></div>
+                <div id="index__chart">
+                    <canvas id="index__dataChart"></canvas>
+                </div>
+            </div>
+            <aside>
+                <div id="index__table">
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Negara</th>
+                                <th scope="col">Total kasus</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-data"></tbody>
+                    </table>
+                </div>
+            </aside>
+        </main>
+        <foo-bar></foo-bar>
+    </body>
+</html>
